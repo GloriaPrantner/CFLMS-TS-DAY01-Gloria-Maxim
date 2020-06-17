@@ -7,3 +7,10 @@ num.forEach(function(i){
 	   document.write(j + " x " + num[i] + " = " + result + "<br>");
 	}
 })
+
+for(let i of num){
+	for(let y of num){
+		console.log(`${i} X ${y} = ${i*y}`);
+	}
+}
+

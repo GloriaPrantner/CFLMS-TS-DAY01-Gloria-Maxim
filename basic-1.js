@@ -5,3 +5,10 @@ num.forEach(function (i) {
         document.write(j + " x " + num[i] + " = " + result + "<br>");
     }
 });
+for (var _i = 0, num_1 = num; _i < num_1.length; _i++) {
+    var i = num_1[_i];
+    for (var _a = 0, num_2 = num; _a < num_2.length; _a++) {
+        var y = num_2[_a];
+        console.log(i + " X " + y + " = " + i * y);
+    }
+}
